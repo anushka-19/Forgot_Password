@@ -17,8 +17,8 @@ import jakarta.servlet.http.HttpServletResponse;
 public class Forgot extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private String dburl="jdbc:mysql://localhost:3306/user";
-	private String dbuname="anushka";
-	private String dbpassword="Anushka@1234";
+	private String dbuname="dbname";
+	private String dbpassword="dbpassword";
 	private String dbdriver="com.mysql.jdbc.Driver";
 	
 	public void loadDriver(String dbDriver) 
